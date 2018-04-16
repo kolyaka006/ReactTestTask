@@ -1,5 +1,5 @@
 import axios from 'axios';
-import config from '../../config.json'
+import config from '../../config.json';
 let [_page, _sort, _type] = [0, 'id', 'asc']
 
 export default {
