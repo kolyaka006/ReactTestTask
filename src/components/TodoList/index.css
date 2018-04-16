@@ -1,0 +1,46 @@
+.todo-list__username {
+    width: 15%;
+}
+
+.todo-list__email {
+    width: 20%;
+}
+
+.todo-list__text {
+    width: 30%;
+}
+
+.todo-list__image {
+    margin: 0 10px;
+    width: 25%;
+}
+
+.todo-list__status {
+    width: 10%;
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1024px) {
+    .todo-list__username {
+        width: 10%;
+    }
+
+    .todo-list__status {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .todo-list__text {
+        width: 25%;
+    }
+
+    .todo-list__status {
+        width: 20%;
+    }
+}

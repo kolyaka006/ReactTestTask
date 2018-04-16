@@ -1,0 +1,32 @@
+.m-t-10 {
+    margin-top: 10px
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.m-b-30 {
+    margin-bottom: 30px
+}
+
+.m-r-10 {
+    margin-right: 10px
+}
+
+.m-l-10 {
+    margin-left: 10px
+}
+
+.pointer {
+    cursor: pointer;
+    user-select: none;
+}
+
+.hide {
+    display: none;
+}
+
+.error-border {
+    border: 1px solid red;
+}

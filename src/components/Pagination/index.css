@@ -1,0 +1,12 @@
+.pagination__button {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pagination__button_current {
+    font-weight: bold;
+}

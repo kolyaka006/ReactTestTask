@@ -1,0 +1,60 @@
+.todo {
+    border: 2px solid #ddd;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+.todo_done,
+.todo_done .todo__username,
+.todo_done .todo__email,
+.todo_done .todo__status,
+.todo_done .todo__text {
+    border-color: green;
+}
+
+.todo_undone,
+.todo_undone .todo__username,
+.todo_undone .todo__email,
+.todo_undone .todo__status,
+.todo_undone .todo__text{
+    border-color: darkred;
+}
+
+.todo__username, .todo__email, .todo__text {
+    border-right: 1px solid #ddd;
+    padding-left: 10px;
+}
+
+.todo__status {
+    border-left: 1px solid #ddd;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.todo__text {
+    overflow: hidden;
+    padding: 5px;
+}
+
+.todo-text__content {
+    overflow: auto;
+    height: 100%;
+}
+
+.todo__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .todo {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .todo {
+        height: 100px;
+    }
+}

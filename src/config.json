@@ -1,0 +1,9 @@
+{
+  "backendUrlDefault": "https://uxcandy.com/~shapoval/test-task-backend/",
+  "backendUrl": "https://uxcandy.com/~shapoval/test-task-backend/?developer=NickolayZhigulin",
+  "backendUrlCreate": "https://uxcandy.com/~shapoval/test-task-backend/create?developer=NickolayZhigulin",
+  "countOnPage": 3,
+  "adminLogin": "admin",
+  "adminPassword": "123"
+
+}

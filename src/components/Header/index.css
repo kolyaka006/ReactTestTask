@@ -1,0 +1,105 @@
+.header {
+    height: 50px;
+    background-color: #ddd;
+}
+
+.header__modal {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    overflow: hidden;
+    outline: none;
+    padding: 20px;
+}
+
+.header__modal_content-style {
+    padding: 20px 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    overflow: auto;
+    height: 100%;
+}
+
+.header__image-block {
+    max-width: 320px;
+    height: 240px;
+    border-radius: 5px;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__image-block_border {
+    border: 1px solid #ddd;
+}
+
+.header__close-cross {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header__plus {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+.header__image-block:hover .header__plus {
+    transform: rotate(360deg);
+}
+
+.header__plus_ver {
+    height: 100%;
+    width: 14px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.header__plus_hor {
+    height: 14px;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: 15px;
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .header__btn-create {
+        margin-bottom: 10px;
+    }
+
+    .header__username-inp {
+        margin-bottom: 10px;
+    }
+
+    .header__modal {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        overflow: hidden;
+        outline: none;
+        padding: 0;
+    }
+}
